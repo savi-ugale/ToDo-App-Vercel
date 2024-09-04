@@ -6,6 +6,8 @@ import { v4 as uuidv4 } from 'uuid';     //generates unique IDs. These IDs are u
 
 function App() {
 
+
+  //yash mand ahe
   const [todo, setTodo] = useState("")   //todo and setTodo: Manage the state of the current todo item being edited or created.
   const [todos, setTodos] = useState([]) //todos and setTodos: Manage the state of the list of all todo items
   const [showFinished, setshowFinished]= useState(true)
