@@ -1,8 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'; // Remove BrowserRouter
-import Login from './Pages/Login';
-import SignUp from './Pages/SignUp';
-import TodoPage from './Pages/TodoPage';
+import Login from './Pages/Login.jsx';
+import SignUp from './Pages/SignUp.jsx';
+import TodoPage from './Pages/TodoPage.jsx';
 import './App.css';
 
 function App() {
