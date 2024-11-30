@@ -91,7 +91,7 @@ function Login({ setIsAuthenticated }) {
         {/* Sign Up Button */}
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-700">
-            Don't have an account?{' '}
+            Dont have an account?{' '}
             <button
               onClick={() => navigate('/signup')}
               className="text-blue-600 hover:underline font-medium"
